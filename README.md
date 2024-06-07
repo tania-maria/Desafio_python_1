@@ -1,20 +1,4 @@
 ﻿#Desafio_python_1
-# Criar um sistema bancário com as operações: sacar, depositar e visualizar extrado.
-
-# Operação de depósito:
-# Deve ser possível depositar valores positivos para a minha conta bancária. A v1 do projeto trabalha apenas com 1 usuário, dessa forma não 
-#precisamos nos preocupar em identificar qaul é o número da agëncia e conta bancária. Todos os depósitod devem ser armazenados em uma variável e 
-# exibidos na operação de extrato.
-
-# Operção de saque:
-# O sistema deve permititir realizar 3 saques diário com limete máxiko de R$500, por saque. Caso o usuário não tenha saldo em conta, o sistema
-#deve exibir uma mensagem informando que não será possível sacar o dinheiro por falta de soldo. Todos os saques devem ser armazenados em uma 
-#variável e exibidos na operação de extrato.
-
-# Operação de extrato
-# Essa operação deve listar todos os depósitos e saques realizados na conta. No fim da listagem deve exibir o saldo atual da conta.
-# Os valores devem ser exibidos utilizando o formato R$ xxx.xx, ex: 1500.45 = R$ 1500.45
-
 menu = """
 
 [d] Depositar
